@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#08203a"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="54" fill="url(#bg)"/>
+  <circle cx="400" cy="400" r="210" fill="#0b1220" opacity=".7"/>
+  <circle cx="400" cy="400" r="170" fill="none" stroke="url(#accent)" stroke-width="18" opacity=".9"/>
+  <path d="M285 420c45-80 91-115 115-115s70 25 115 115" fill="none" stroke="url(#accent)" stroke-width="20" stroke-linecap="round"/>
+  <text x="400" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="66" fill="#e2e8f0" font-weight="700">BLUE BLACK</text>
+</svg>
